@@ -1,2 +1,2 @@
-C:\Users\Hugo\Desktop\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Definitions.Balletes.h
-C:\Users\Hugo\Desktop\Balletes\Balletes\Source\Balletes\Balletes.h
+D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Definitions.Balletes.h
+D:\PROJECTS\Balletes\Balletes\Source\Balletes\Balletes.h

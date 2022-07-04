@@ -1,7 +1,7 @@
-C:\Users\Hugo\Desktop\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Definitions.Balletes.h
-C:\Users\Hugo\Desktop\Balletes\Balletes\Source\Balletes\BalletesGameModeBase.h
-E:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-E:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-E:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-E:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\Hugo\Desktop\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Inc\Balletes\BalletesGameModeBase.generated.h
+D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Definitions.Balletes.h
+D:\PROJECTS\Balletes\Balletes\Source\Balletes\BalletesGameModeBase.h
+D:\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Inc\Balletes\BalletesGameModeBase.generated.h
