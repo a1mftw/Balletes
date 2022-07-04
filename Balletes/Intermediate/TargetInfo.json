@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Balletes",
+			"Path": "C:\\Users\\Hugo\\Desktop\\Balletes\\Balletes\\Source\\Balletes.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BalletesEditor",
+			"Path": "C:\\Users\\Hugo\\Desktop\\Balletes\\Balletes\\Source\\BalletesEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

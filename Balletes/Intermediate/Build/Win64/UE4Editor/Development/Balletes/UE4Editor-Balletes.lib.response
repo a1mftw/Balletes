@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Balletes.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Hugo\Desktop\Balletes\Balletes\Intermediate\Build\Win64\BalletesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Hugo\Desktop\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Balletes.cpp.obj"
+"C:\Users\Hugo\Desktop\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\BalletesGameModeBase.cpp.obj"
+"C:\Users\Hugo\Desktop\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Balletes.init.gen.cpp.obj"
+"C:\Users\Hugo\Desktop\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\BalletesGameModeBase.gen.cpp.obj"
+"C:\Users\Hugo\Desktop\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Default.rc2.res"
+/OUT:"C:\Users\Hugo\Desktop\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\UE4Editor-Balletes.lib"
+/INCLUDE:IMPLEMENT_MODULE_Balletes
