@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Balletes.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1EE0B78A-CD46-4D01-B166-042C86A35939}</UniqueIdentifier>
+      <UniqueIdentifier>{3A3A374A-E629-492F-B122-DC9C9648D372}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Balletes.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DBBB8674-B5DF-4824-8009-9308534E7B85}</UniqueIdentifier>
+      <UniqueIdentifier>{56AB03D1-1211-4098-8AAC-07EDAA914160}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Balletes">
-      <UniqueIdentifier>{D2E191F4-4CC6-4EEB-B94E-C101306C1CAC}</UniqueIdentifier>
+      <UniqueIdentifier>{4A4D437F-F378-41B6-AC65-0181783486E3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Balletes\Balletes.Build.cs">
       <Filter>Source\Balletes</Filter>
@@ -41,5 +44,12 @@
     <ClInclude Include="..\..\Source\Balletes\BalletesGameModeBase.h">
       <Filter>Source\Balletes</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Balletes\FirstPersonController.cpp">
+      <Filter>Source\Balletes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Balletes\FirstPersonController.h">
+      <Filter>Source\Balletes</Filter>
+    </ClInclude>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

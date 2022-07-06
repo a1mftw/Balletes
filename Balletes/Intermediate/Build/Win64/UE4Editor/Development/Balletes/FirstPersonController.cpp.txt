@@ -1,0 +1,9 @@
+D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Definitions.Balletes.h
+D:\PROJECTS\Balletes\Balletes\Source\Balletes\FirstPersonController.h
+D:\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Inc\Balletes\FirstPersonController.generated.h
