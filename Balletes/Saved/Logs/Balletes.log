@@ -869,3 +869,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.07.06-14.40.44:207][660]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002123AE22C00), frame # 16660
 [2022.07.06-14.40.44:208][660]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
 [2022.07.06-14.40.44:253][661]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.07.06-14.41.47:720][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2022.07.06-14.41.47:832][153]LogSavePackage: Moving '../../../../../PROJECTS/Balletes/Balletes/Saved/BulletTest_Auto1CF4C2B2746063300243ABC86428D3328.tmp' to '../../../../../PROJECTS/Balletes/Balletes/Saved/Autosaves/Game/Balletes/Levels/BulletTest_Auto1.umap'
+[2022.07.06-14.41.47:866][153]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Balletes/Levels/BulletTest' took 0.156
+[2022.07.06-14.41.47:866][153]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.156
