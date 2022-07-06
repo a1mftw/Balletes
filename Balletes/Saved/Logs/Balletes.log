@@ -873,3 +873,62 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.07.06-14.41.47:832][153]LogSavePackage: Moving '../../../../../PROJECTS/Balletes/Balletes/Saved/BulletTest_Auto1CF4C2B2746063300243ABC86428D3328.tmp' to '../../../../../PROJECTS/Balletes/Balletes/Saved/Autosaves/Game/Balletes/Levels/BulletTest_Auto1.umap'
 [2022.07.06-14.41.47:866][153]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Balletes/Levels/BulletTest' took 0.156
 [2022.07.06-14.41.47:866][153]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.156
+[2022.07.06-14.48.21:018][239]Cmd: POLY SELECT MEMORY UNION
+[2022.07.06-14.49.00:883][606]LogSlate: Took 0.022178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.07.06-14.49.11:157][208]Cmd: POLY SELECT MEMORY UNION
+[2022.07.06-14.49.11:390][222]Cmd: POLY SELECT ADJACENT WALLS
+[2022.07.06-14.49.11:524][230]Cmd: POLY SELECT MEMORY UNION
+[2022.07.06-14.49.11:757][244]Cmd: POLY SELECT ALL
+[2022.07.06-14.49.11:934][253]Cmd: POLY SELECT MEMORY UNION
+[2022.07.06-14.49.29:038][263]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.07.06-14.50.06:828][506]Cmd: TRANSACTION UNDO
+[2022.07.06-14.50.06:828][506]LogEditorTransaction: Undo Set Location
+[2022.07.06-14.50.38:536][354]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.07.06-14.52.28:800][705]Cmd: TRANSACTION UNDO
+[2022.07.06-14.52.28:800][705]LogEditorTransaction: Undo Set Vector Property
+[2022.07.06-14.52.42:218][477]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.06-14.52.42:229][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.06-14.52.42:230][477]PIE: New page: PIE session: BulletTest (06/07/2022, 16:52:42)
+[2022.07.06-14.52.42:230][477]LogPlayLevel: Creating play world package: /Game/Balletes/Levels/UEDPIE_0_BulletTest
+[2022.07.06-14.52.42:234][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003782s)
+[2022.07.06-14.52.42:235][477]LogAIModule: Creating AISystem for world BulletTest
+[2022.07.06-14.52.42:235][477]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000212304DA600), frame # 35477
+[2022.07.06-14.52.42:235][477]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002123044AD40), frame # 35477
+[2022.07.06-14.52.42:235][477]LogPlayLevel: PIE: World Init took: (0.001588s)
+[2022.07.06-14.52.42:235][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Balletes/Levels/BulletTest.BulletTest to /Game/Balletes/Levels/UEDPIE_0_BulletTest.BulletTest (0.005553s)
+[2022.07.06-14.52.42:246][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.07.06-14.52.42:248][477]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.06-14.52.42:248][477]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.06-14.52.42:248][477]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.06-14.52.42:248][477]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.06-14.52.42:248][477]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.06-14.52.42:248][477]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.06-14.52.42:248][477]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.06-14.52.42:248][477]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.06-14.52.42:248][477]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.06-14.52.42:248][477]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.06-14.52.42:252][477]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.06-14.52.42:252][477]LogAudioMixer: Display: 1: FrontRight
+[2022.07.06-14.52.42:268][477]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.07.06-14.52.42:268][477]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.06-14.52.42:268][477]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.06-14.52.42:268][477]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.06-14.52.42:268][477]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.06-14.52.42:280][477]LogInit: FAudioDevice initialized.
+[2022.07.06-14.52.42:287][477]LogLoad: Game class is 'GameModeBase'
+[2022.07.06-14.52.42:288][477]LogWorld: Bringing World /Game/Balletes/Levels/UEDPIE_0_BulletTest.BulletTest up for play (max tick rate 60) at 2022.07.06-15.52.42
+[2022.07.06-14.52.42:289][477]LogWorld: Bringing up level for play took: 0.000531
+[2022.07.06-14.52.42:289][477]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.07.06-14.52.42:290][477]PIE: Server logged in
+[2022.07.06-14.52.42:291][477]PIE: Play in editor total start time 0,063 seconds.
+[2022.07.06-14.52.55:014][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.06-14.52.55:014][234]LogWorld: BeginTearingDown for /Game/Balletes/Levels/UEDPIE_0_BulletTest
+[2022.07.06-14.52.55:014][234]LogWorld: UWorld::CleanupWorld for BulletTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.06-14.52.55:014][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.06-14.52.55:021][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.06-14.52.55:022][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.06-14.52.55:046][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.06-14.52.55:047][234]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000212304DA600), frame # 36234
+[2022.07.06-14.52.55:047][234]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002123044AD40), frame # 36234
+[2022.07.06-14.52.55:047][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.07.06-14.52.55:094][236]LogPlayLevel: Display: Destroying online subsystem :Context_4
