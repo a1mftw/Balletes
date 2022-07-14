@@ -22,6 +22,9 @@ void AFirstPersonController::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	//set all other weapons to nullptr, spawn with the base weapon
+	weapon = nullptr;
+
 }
 
 // Called every frame

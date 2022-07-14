@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Balletes.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3A3A374A-E629-492F-B122-DC9C9648D372}</UniqueIdentifier>
+      <UniqueIdentifier>{6DE646E1-5C45-4F60-9E33-C1C8570377D1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Balletes.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{56AB03D1-1211-4098-8AAC-07EDAA914160}</UniqueIdentifier>
+      <UniqueIdentifier>{F76DFAC4-6B58-4778-B3A5-BCA4B3584E83}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Balletes">
-      <UniqueIdentifier>{4A4D437F-F378-41B6-AC65-0181783486E3}</UniqueIdentifier>
+      <UniqueIdentifier>{91AA1E08-B8C2-436A-B785-B30A4514CE3B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Balletes\Balletes.Build.cs">
       <Filter>Source\Balletes</Filter>
@@ -50,6 +50,11 @@
     <ClInclude Include="..\..\Source\Balletes\FirstPersonController.h">
       <Filter>Source\Balletes</Filter>
     </ClInclude>
-    <None Include="cpp.hint" />
+    <ClCompile Include="..\..\Source\Balletes\Weapon.cpp">
+      <Filter>Source\Balletes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Balletes\Weapon.h">
+      <Filter>Source\Balletes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -21,6 +21,10 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+///////////////////////////////////////////////////
+
+
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -28,7 +32,13 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
+		AWeapon* weapon;
+
 private:
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	int ammo;
+
 	void HorizMove(float value);
 	void VertMove(float value);
 

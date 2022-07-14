@@ -36,6 +36,10 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cam_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cam;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ammo_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ammo;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -59,8 +63,16 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonController() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonController_Statics::NewProp_cam = { "cam", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonController, cam), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPersonController_Statics::NewProp_cam_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonController_Statics::NewProp_cam_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonController_Statics::NewProp_ammo_MetaData[] = {
+		{ "Category", "Stats" },
+		{ "ModuleRelativePath", "FirstPersonController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AFirstPersonController_Statics::NewProp_ammo = { "ammo", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonController, ammo), METADATA_PARAMS(Z_Construct_UClass_AFirstPersonController_Statics::NewProp_ammo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonController_Statics::NewProp_ammo_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPersonController_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonController_Statics::NewProp_cam,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonController_Statics::NewProp_ammo,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AFirstPersonController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AFirstPersonController>::IsAbstract,
@@ -89,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPersonController, 3268643703);
+	IMPLEMENT_CLASS(AFirstPersonController, 2622688075);
 	template<> BALLETES_API UClass* StaticClass<AFirstPersonController>()
 	{
 		return AFirstPersonController::StaticClass();

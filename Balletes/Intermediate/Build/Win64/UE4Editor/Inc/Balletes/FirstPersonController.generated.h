@@ -59,6 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonController); \
 
 
 #define Balletes_Source_Balletes_FirstPersonController_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ammo() { return STRUCT_OFFSET(AFirstPersonController, ammo); } \
 	FORCEINLINE static uint32 __PPO__cam() { return STRUCT_OFFSET(AFirstPersonController, cam); }
 
 
