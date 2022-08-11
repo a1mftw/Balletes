@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Balletes.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6DE646E1-5C45-4F60-9E33-C1C8570377D1}</UniqueIdentifier>
+      <UniqueIdentifier>{30E0CA8E-85D4-4369-8A51-D9CC735BA517}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Balletes.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F76DFAC4-6B58-4778-B3A5-BCA4B3584E83}</UniqueIdentifier>
+      <UniqueIdentifier>{A3C8105F-A27F-4B34-B15B-64E2D75D72EA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Balletes">
-      <UniqueIdentifier>{91AA1E08-B8C2-436A-B785-B30A4514CE3B}</UniqueIdentifier>
+      <UniqueIdentifier>{D9B71851-BC5B-4DDA-8097-800E9573E66E}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Balletes\BalleteProjectile.cpp">
+      <Filter>Source\Balletes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Balletes\BalleteProjectile.h">
+      <Filter>Source\Balletes</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Balletes\Balletes.Build.cs">
       <Filter>Source\Balletes</Filter>
     </None>

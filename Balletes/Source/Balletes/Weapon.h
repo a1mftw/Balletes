@@ -40,6 +40,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
 		float pistolShotInterval;
 
-	UFUNCTION(EditAnywhere, BlueprintReadWrite, Category = Weapon)
-		void Fire();
+	//UFUNCTION(BlueprintReadWrite, Category = Weapon)
+	//	void Fire();
 };

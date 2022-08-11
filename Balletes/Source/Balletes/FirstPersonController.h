@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Components/InputComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Weapon.h"
 #include "FirstPersonController.generated.h"
 
 UCLASS()

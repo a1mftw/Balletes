@@ -34,10 +34,12 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\BalletesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\BalleteProjectile.cpp.obj"
 "D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Balletes.cpp.obj"
 "D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\BalletesGameModeBase.cpp.obj"
 "D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\FirstPersonController.cpp.obj"
 "D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Weapon.cpp.obj"
+"D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\BalleteProjectile.gen.cpp.obj"
 "D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Balletes.init.gen.cpp.obj"
 "D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\BalletesGameModeBase.gen.cpp.obj"
 "D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\FirstPersonController.gen.cpp.obj"

@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonController() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Balletes();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	BALLETES_API UClass* Z_Construct_UClass_AWeapon_NoRegister();
 // End Cross Module References
 	void AFirstPersonController::StaticRegisterNativesAFirstPersonController()
 	{
@@ -40,6 +41,10 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ammo_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ammo;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_weapon_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_weapon;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -70,9 +75,17 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonController() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AFirstPersonController_Statics::NewProp_ammo = { "ammo", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonController, ammo), METADATA_PARAMS(Z_Construct_UClass_AFirstPersonController_Statics::NewProp_ammo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonController_Statics::NewProp_ammo_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonController_Statics::NewProp_weapon_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "ModuleRelativePath", "FirstPersonController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonController_Statics::NewProp_weapon = { "weapon", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonController, weapon), Z_Construct_UClass_AWeapon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPersonController_Statics::NewProp_weapon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonController_Statics::NewProp_weapon_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPersonController_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonController_Statics::NewProp_cam,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonController_Statics::NewProp_ammo,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonController_Statics::NewProp_weapon,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AFirstPersonController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AFirstPersonController>::IsAbstract,
@@ -101,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPersonController, 2622688075);
+	IMPLEMENT_CLASS(AFirstPersonController, 2208723920);
 	template<> BALLETES_API UClass* StaticClass<AFirstPersonController>()
 	{
 		return AFirstPersonController::StaticClass();

@@ -8,4 +8,6 @@ D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Roo
 D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 D:\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\PROJECTS\Balletes\Balletes\Source\Balletes\Weapon.h
+D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Inc\Balletes\Weapon.generated.h
 D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Inc\Balletes\FirstPersonController.generated.h
