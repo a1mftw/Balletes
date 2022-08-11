@@ -1,0 +1,5 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\PROJECTS\Balletes).
+  Parsing headers for BalletesEditor
+    Running UnrealHeaderTool "D:\PROJECTS\Balletes\Balletes\Balletes.uproject" "D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\BalletesEditor\Development\BalletesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\WIN10\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  D:/PROJECTS/Balletes/Balletes/Source/Balletes/FirstPersonController.h(56) : LogCompile: Error: BlueprintReadWrite should not be used on private members
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command "D:\UnrealEngine\UE_4.25\Engine\Build\BatchFiles\Build.bat BalletesEditor Win64 Development -Project="D:\PROJECTS\Balletes\Balletes\Balletes.uproject" -WaitMutex -FromMsBuild" exited with code 6.

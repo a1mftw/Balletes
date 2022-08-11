@@ -7,6 +7,7 @@
 #include "Components/InputComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Weapon.h"
+#include "BalleteProjectile.h"
 #include "FirstPersonController.generated.h"
 
 UCLASS()
@@ -22,8 +23,8 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-///////////////////////////////////////////////////
-
+	UPROPERTY(EditAnywhere, Category = Projectile)
+		TSubclassOf<class ABalleteProjectile> ProjectileClass;
 
 
 public:	
@@ -36,6 +37,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
 		AWeapon* weapon;
 
+	UPROPERTY(EditAnywhere, Category = "Camera")
+		UCameraComponent* cam;
+
+	UFUNCTION()
+		void Fire();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		FVector MuzzleOffset;
+
 private:
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	int ammo;
@@ -45,7 +55,4 @@ private:
 
 	void HorizRot(float value);
 	void VertRot(float value);
-
-	UPROPERTY(EditAnywhere, Category = "Camera")
-    UCameraComponent* cam;
 };

@@ -43,6 +43,7 @@ void AFirstPersonController::SetupPlayerInputComponent(UInputComponent* PlayerIn
 	InputComponent->BindAxis("Vertical", this, &AFirstPersonController::VertMove);
 	InputComponent->BindAxis("HorizRot", this, &AFirstPersonController::HorizRot);
 	InputComponent->BindAxis("VertRot", this, &AFirstPersonController::VertRot);
+	InputComponent->BindAction("Fire",IE_Pressed,this,&AFirstPersonController::Fire);
 }
 
 void AFirstPersonController::HorizMove(float value)
@@ -76,5 +77,44 @@ void AFirstPersonController::VertRot(float value)
 		float temp = cam->GetRelativeRotation().Pitch + value;
 		if (temp < 65 && temp > -65)
 			cam->AddLocalRotation(FRotator(value, 0, 0));
+	}
+}
+
+void AFirstPersonController::Fire()
+{
+	if (ProjectileClass)
+	{
+		//cam transform
+		FVector CameraLocation;
+		FRotator CameraRotation;
+		CameraLocation = cam->GetComponentLocation();
+		CameraRotation = cam->GetComponentRotation();
+
+		//set offset
+		MuzzleOffset.Set(100.0f, 0.0f, 0.0f);
+
+		FVector MuzzleLocation = CameraLocation + FTransform(CameraRotation).TransformVector(MuzzleOffset);
+
+		//skew aim
+		FRotator MuzzleRotation = CameraRotation;
+		MuzzleRotation.Pitch += 0.0f;
+
+		UWorld* World = GetWorld();
+
+		if (World)
+		{
+			FActorSpawnParameters SpawnParams;
+			SpawnParams.Owner = this;
+			SpawnParams.Instigator = GetInstigator();
+
+			//Spawn the projectile
+			ABalleteProjectile* Projectile = World->SpawnActor<ABalleteProjectile>(ProjectileClass, MuzzleLocation, MuzzleRotation, SpawnParams);
+
+			if (Projectile)
+			{
+				FVector LaunchDirection = MuzzleRotation.Vector();
+				Projectile->FireInDirection(LaunchDirection);
+			}
+		}
 	}
 }

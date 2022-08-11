@@ -1,3 +1,11 @@
 D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Development\Balletes\Definitions.Balletes.h
 D:\PROJECTS\Balletes\Balletes\Source\Balletes\BalleteProjectile.h
+D:\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+D:\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+D:\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+D:\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
 D:\PROJECTS\Balletes\Balletes\Intermediate\Build\Win64\UE4Editor\Inc\Balletes\BalleteProjectile.generated.h

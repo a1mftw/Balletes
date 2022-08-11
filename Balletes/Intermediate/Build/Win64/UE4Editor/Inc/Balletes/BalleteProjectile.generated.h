@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BALLETES_BalleteProjectile_generated_h
 
-#define Balletes_Source_Balletes_BalleteProjectile_h_12_SPARSE_DATA
-#define Balletes_Source_Balletes_BalleteProjectile_h_12_RPC_WRAPPERS
-#define Balletes_Source_Balletes_BalleteProjectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define Balletes_Source_Balletes_BalleteProjectile_h_12_INCLASS_NO_PURE_DECLS \
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_SPARSE_DATA
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_RPC_WRAPPERS
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABalleteProjectile(); \
 	friend struct Z_Construct_UClass_ABalleteProjectile_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ABalleteProjectile)
 
 
-#define Balletes_Source_Balletes_BalleteProjectile_h_12_INCLASS \
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesABalleteProjectile(); \
 	friend struct Z_Construct_UClass_ABalleteProjectile_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ABalleteProjectile)
 
 
-#define Balletes_Source_Balletes_BalleteProjectile_h_12_STANDARD_CONSTRUCTORS \
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABalleteProjectile(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABalleteProjectile) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Balletes_Source_Balletes_BalleteProjectile_h_12_ENHANCED_CONSTRUCTORS \
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABalleteProjectile(ABalleteProjectile&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABalleteProjectile); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABalleteProjectile)
 
 
-#define Balletes_Source_Balletes_BalleteProjectile_h_12_PRIVATE_PROPERTY_OFFSET
-#define Balletes_Source_Balletes_BalleteProjectile_h_9_PROLOG
-#define Balletes_Source_Balletes_BalleteProjectile_h_12_GENERATED_BODY_LEGACY \
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_PRIVATE_PROPERTY_OFFSET
+#define Balletes_Source_Balletes_BalleteProjectile_h_11_PROLOG
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Balletes_Source_Balletes_BalleteProjectile_h_12_PRIVATE_PROPERTY_OFFSET \
-	Balletes_Source_Balletes_BalleteProjectile_h_12_SPARSE_DATA \
-	Balletes_Source_Balletes_BalleteProjectile_h_12_RPC_WRAPPERS \
-	Balletes_Source_Balletes_BalleteProjectile_h_12_INCLASS \
-	Balletes_Source_Balletes_BalleteProjectile_h_12_STANDARD_CONSTRUCTORS \
+	Balletes_Source_Balletes_BalleteProjectile_h_14_PRIVATE_PROPERTY_OFFSET \
+	Balletes_Source_Balletes_BalleteProjectile_h_14_SPARSE_DATA \
+	Balletes_Source_Balletes_BalleteProjectile_h_14_RPC_WRAPPERS \
+	Balletes_Source_Balletes_BalleteProjectile_h_14_INCLASS \
+	Balletes_Source_Balletes_BalleteProjectile_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Balletes_Source_Balletes_BalleteProjectile_h_12_GENERATED_BODY \
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Balletes_Source_Balletes_BalleteProjectile_h_12_PRIVATE_PROPERTY_OFFSET \
-	Balletes_Source_Balletes_BalleteProjectile_h_12_SPARSE_DATA \
-	Balletes_Source_Balletes_BalleteProjectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Balletes_Source_Balletes_BalleteProjectile_h_12_INCLASS_NO_PURE_DECLS \
-	Balletes_Source_Balletes_BalleteProjectile_h_12_ENHANCED_CONSTRUCTORS \
+	Balletes_Source_Balletes_BalleteProjectile_h_14_PRIVATE_PROPERTY_OFFSET \
+	Balletes_Source_Balletes_BalleteProjectile_h_14_SPARSE_DATA \
+	Balletes_Source_Balletes_BalleteProjectile_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	Balletes_Source_Balletes_BalleteProjectile_h_14_INCLASS_NO_PURE_DECLS \
+	Balletes_Source_Balletes_BalleteProjectile_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

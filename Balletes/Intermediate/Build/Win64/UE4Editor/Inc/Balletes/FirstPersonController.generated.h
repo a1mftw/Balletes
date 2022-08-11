@@ -13,10 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BALLETES_FirstPersonController_generated_h
 
-#define Balletes_Source_Balletes_FirstPersonController_h_15_SPARSE_DATA
-#define Balletes_Source_Balletes_FirstPersonController_h_15_RPC_WRAPPERS
-#define Balletes_Source_Balletes_FirstPersonController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Balletes_Source_Balletes_FirstPersonController_h_15_INCLASS_NO_PURE_DECLS \
+#define Balletes_Source_Balletes_FirstPersonController_h_16_SPARSE_DATA
+#define Balletes_Source_Balletes_FirstPersonController_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execFire);
+
+
+#define Balletes_Source_Balletes_FirstPersonController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFire);
+
+
+#define Balletes_Source_Balletes_FirstPersonController_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFirstPersonController(); \
 	friend struct Z_Construct_UClass_AFirstPersonController_Statics; \
@@ -25,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AFirstPersonController)
 
 
-#define Balletes_Source_Balletes_FirstPersonController_h_15_INCLASS \
+#define Balletes_Source_Balletes_FirstPersonController_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAFirstPersonController(); \
 	friend struct Z_Construct_UClass_AFirstPersonController_Statics; \
@@ -34,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(AFirstPersonController)
 
 
-#define Balletes_Source_Balletes_FirstPersonController_h_15_STANDARD_CONSTRUCTORS \
+#define Balletes_Source_Balletes_FirstPersonController_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFirstPersonController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFirstPersonController) \
@@ -47,7 +55,7 @@ private: \
 public:
 
 
-#define Balletes_Source_Balletes_FirstPersonController_h_15_ENHANCED_CONSTRUCTORS \
+#define Balletes_Source_Balletes_FirstPersonController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFirstPersonController(AFirstPersonController&&); \
@@ -58,32 +66,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFirstPersonController)
 
 
-#define Balletes_Source_Balletes_FirstPersonController_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__ammo() { return STRUCT_OFFSET(AFirstPersonController, ammo); } \
-	FORCEINLINE static uint32 __PPO__cam() { return STRUCT_OFFSET(AFirstPersonController, cam); }
+#define Balletes_Source_Balletes_FirstPersonController_h_16_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ProjectileClass() { return STRUCT_OFFSET(AFirstPersonController, ProjectileClass); } \
+	FORCEINLINE static uint32 __PPO__ammo() { return STRUCT_OFFSET(AFirstPersonController, ammo); }
 
 
-#define Balletes_Source_Balletes_FirstPersonController_h_12_PROLOG
-#define Balletes_Source_Balletes_FirstPersonController_h_15_GENERATED_BODY_LEGACY \
+#define Balletes_Source_Balletes_FirstPersonController_h_13_PROLOG
+#define Balletes_Source_Balletes_FirstPersonController_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Balletes_Source_Balletes_FirstPersonController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Balletes_Source_Balletes_FirstPersonController_h_15_SPARSE_DATA \
-	Balletes_Source_Balletes_FirstPersonController_h_15_RPC_WRAPPERS \
-	Balletes_Source_Balletes_FirstPersonController_h_15_INCLASS \
-	Balletes_Source_Balletes_FirstPersonController_h_15_STANDARD_CONSTRUCTORS \
+	Balletes_Source_Balletes_FirstPersonController_h_16_PRIVATE_PROPERTY_OFFSET \
+	Balletes_Source_Balletes_FirstPersonController_h_16_SPARSE_DATA \
+	Balletes_Source_Balletes_FirstPersonController_h_16_RPC_WRAPPERS \
+	Balletes_Source_Balletes_FirstPersonController_h_16_INCLASS \
+	Balletes_Source_Balletes_FirstPersonController_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Balletes_Source_Balletes_FirstPersonController_h_15_GENERATED_BODY \
+#define Balletes_Source_Balletes_FirstPersonController_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Balletes_Source_Balletes_FirstPersonController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Balletes_Source_Balletes_FirstPersonController_h_15_SPARSE_DATA \
-	Balletes_Source_Balletes_FirstPersonController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Balletes_Source_Balletes_FirstPersonController_h_15_INCLASS_NO_PURE_DECLS \
-	Balletes_Source_Balletes_FirstPersonController_h_15_ENHANCED_CONSTRUCTORS \
+	Balletes_Source_Balletes_FirstPersonController_h_16_PRIVATE_PROPERTY_OFFSET \
+	Balletes_Source_Balletes_FirstPersonController_h_16_SPARSE_DATA \
+	Balletes_Source_Balletes_FirstPersonController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Balletes_Source_Balletes_FirstPersonController_h_16_INCLASS_NO_PURE_DECLS \
+	Balletes_Source_Balletes_FirstPersonController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
