@@ -51,6 +51,10 @@ ABalleteProjectile::ABalleteProjectile()
 	ProjectileMeshComponent->SetMaterial(0, ProjectileMaterialInstance);
 	ProjectileMeshComponent->SetRelativeScale3D(FVector(0.09f, 0.09f, 0.09f));
 	ProjectileMeshComponent->SetupAttachment(RootComponent);
+
+	InitialLifeSpan = 3.0f;
+
+	CollisionComponent->BodyInstance.SetCollisionProfileName(TEXT("Projectile"));
 }
 
 // Called when the game starts or when spawned
