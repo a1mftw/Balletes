@@ -8,14 +8,26 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef BALLETES_BalleteProjectile_generated_h
 #error "BalleteProjectile.generated.h already included, missing '#pragma once' in BalleteProjectile.h"
 #endif
 #define BALLETES_BalleteProjectile_generated_h
 
 #define Balletes_Source_Balletes_BalleteProjectile_h_14_SPARSE_DATA
-#define Balletes_Source_Balletes_BalleteProjectile_h_14_RPC_WRAPPERS
-#define Balletes_Source_Balletes_BalleteProjectile_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
+#define Balletes_Source_Balletes_BalleteProjectile_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
 #define Balletes_Source_Balletes_BalleteProjectile_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABalleteProjectile(); \

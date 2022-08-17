@@ -55,6 +55,9 @@ ABalleteProjectile::ABalleteProjectile()
 	InitialLifeSpan = 3.0f;
 
 	CollisionComponent->BodyInstance.SetCollisionProfileName(TEXT("Projectile"));
+
+	CollisionComponent->OnComponentHit.AddDynamic(this, &ABalleteProjectile::OnHit);
+
 }
 
 // Called when the game starts or when spawned
@@ -74,5 +77,13 @@ void ABalleteProjectile::Tick(float DeltaTime)
 void ABalleteProjectile::FireInDirection(const FVector& ShootDirection)
 {
 	ProjectileMovementComponent->Velocity = ShootDirection * ProjectileMovementComponent->InitialSpeed;
+}
+
+void ABalleteProjectile::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit)
+{
+	if (OtherActor != this && OtherComponent->IsSimulatingPhysics())
+	{
+		OtherComponent->AddImpulseAtLocation(ProjectileMovementComponent->Velocity * 100.0f, Hit.ImpactPoint);
+	}
 }
 
